@@ -20,7 +20,7 @@ class HashTable:
         self.buckets = [None] * num_buckets
 
 
-    def push (self, key : Hashable, value : Any):
+    def add (self, key : Hashable, value : Any):
         """
         Stores a new key-value pair in the hash table.
 
@@ -38,7 +38,7 @@ class HashTable:
         self.buckets[bucket_ix].append((key, value))
 
     
-    def pop (self, key : Hashable) -> Any:
+    def get (self, key : Hashable) -> Any:
         """
         Retrieves a value from the hash table given its key.
 
