@@ -22,7 +22,7 @@ def is_unique_with_bitmap (s : str) -> bool:
     those existing characters. If a character was
     previously marked, then it is repeated.
     This assumes that the string contains only
-    UTF-8 characters.
+    ASCII characters.
 
     Complexity: O(n)
     """
