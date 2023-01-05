@@ -55,7 +55,7 @@ if __name__ == '__main__':
     print("Testing string 'javadoc'");
     print(f"  is_unique_with_set: {is_unique_with_set('javadoc')}");
     print(f"  is_unique_with_bitmap: {is_unique_with_bitmap('javadoc')}");
-    print(f"  isUniqueWithSort: {is_unique_with_sort('javadoc')}");
+    print(f"  is_unique_with_sort: {is_unique_with_sort('javadoc')}");
 
     print("Testing string 'python'");
     print(f"  is_unique_with_set: {is_unique_with_set('python')}");
