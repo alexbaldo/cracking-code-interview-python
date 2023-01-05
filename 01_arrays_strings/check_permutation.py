@@ -46,10 +46,10 @@ def check_permutation_with_sort (s1 : str, s2 : str) -> bool:
 
 
 if __name__ == '__main__':
-    print("Testing strings 'carmina' and 'buranas'");
-    print(f"  check_permutation_with_counter: {check_permutation_with_counter('carmina', 'buranas')}");
-    print(f"  check_permutation_with_sort: {check_permutation_with_sort('carmina', 'buranas')}");
+    print("Testing strings 'carmina' and 'buranas'")
+    print(f"  check_permutation_with_counter: {check_permutation_with_counter('carmina', 'buranas')}")
+    print(f"  check_permutation_with_sort: {check_permutation_with_sort('carmina', 'buranas')}")
 
-    print("Testing strings 'moana' and 'manao'");
-    print(f"  check_permutation_with_counter: {check_permutation_with_counter('moana', 'manao')}");
-    print(f"  check_permutation_with_sort: {check_permutation_with_sort('moana', 'manao')}");
+    print("Testing strings 'moana' and 'manao'")
+    print(f"  check_permutation_with_counter: {check_permutation_with_counter('moana', 'manao')}")
+    print(f"  check_permutation_with_sort: {check_permutation_with_sort('moana', 'manao')}")
